@@ -5,8 +5,42 @@ header{
   text-align: center;
 }
 
+h1{
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+ul{
+  list-style-type: none;
+  background-color: tan;
+  padding: 2%;
+}
+
+li{
+  display: inline-block;
+  padding: 2% 3%;
+  text-decoration: none;
+}
+
+li:hover {
+    background-color: white;
+    color: black;
+    height: 100%;
+}
+
+p1{
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
 #head h1{
   font-size: 60px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+#myheader{
+  text-align: center;
 }
 
 #bio{
@@ -17,4 +51,16 @@ header{
 #work{
   background-color: purple;
   padding: 5%;
+}
+
+#pic{
+  width: 100%;
+}
+
+#pic img{
+  width: 90%;
+  height: auto;
+  display: inline-block;
+  padding: 3%;
+
 }

@@ -1,7 +1,7 @@
-<header id="head">
+<?php
 
-  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
-
-  <h1>Fiorella Atoche</h1>
-  
-</header>
+$pages = array(
+  "index" => "Home",
+  "project" => "Projects",
+);
+?>
