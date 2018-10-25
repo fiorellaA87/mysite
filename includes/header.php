@@ -2,9 +2,11 @@
 
   <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
 
-  <h1>Fiorella Atoche</h1>
+
 
   <nav>
+    <a href='index.php'><h1>Fiorella Atoche</h1></a>
+
     <ul>
       <?php
       foreach($pages as $pg_id => $page_name) {
@@ -19,5 +21,8 @@
     </ul>
   </nav>
 
+  <div id="line">
+  
+  </div>
 
 </header>

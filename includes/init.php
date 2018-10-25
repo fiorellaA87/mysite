@@ -1,7 +1,8 @@
 <?php
 
 $pages = array(
-  "index" => "Home",
-  "project" => "Projects",
+  "index" => "Work",
+  "about" => "About",
+  "resume" => "Resume"
 );
 ?>
